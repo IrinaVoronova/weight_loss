@@ -1,0 +1,35 @@
+@import "_reset";
+@import "_clearfix";
+@import "_header";
+@import "_weight";
+@import "_regform";
+@import "_danger";
+@import "_olena";
+@import "_newregform";
+@import "_js";
+@import "_focus";
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+    font-family: Myriad Pro Regular, sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+
+
+
