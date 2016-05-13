@@ -1,26 +1,9 @@
 
 $(document).ready(function(){
-   /* $("#count1").spincrement({
-        thousandSeparator: " ", // Разделитель тыcячных
-        duration: 1200,         // Продолжительность анимации в миллисекундфч
-        decimalPlaces: 0,       // Сколько знаков оставлять после запятой
-        decimalPoint: ""     // Разделитель десятичной части числа
+    
+    $('#main-btn').click(function(){
+        var scroll = $(window).scrollTop(1160);
     });
-
-    $("#count2").spincrement({
-        thousandSeparator: " ",
-        duration: 1200,
-        decimalPlaces: 0,
-        decimalPoint: ""
-    });
-
-    $("#count3").spincrement({
-        thousandSeparator: " ",
-        duration: 2000,
-        decimalPlaces: 0,
-        decimalPoint: ""
-    });*/
-
     var show = true;
     var countBox = "#counts";
     $(window).on("scroll load resize", function(){
