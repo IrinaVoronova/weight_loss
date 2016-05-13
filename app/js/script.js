@@ -1,6 +1,5 @@
 $(document).ready( function () {
-
-$('#main-btn').on('click', function(e){
+    $('#main-btn').on('click', function(e){
     e.preventDefault();
     var
         $this = $(this),
