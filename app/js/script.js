@@ -1,9 +1,15 @@
+$(document).ready( function () {
 
-$(document).ready(function(){
-    
-    $('#main-btn').click(function(){
-        var scroll = $(window).scrollTop(1160);
-    });
+$('#main-btn').on('click', function(e){
+    e.preventDefault();
+    var
+        $this = $(this),
+        target = $this.data('target'),
+        anchor = $("[id='"+ target +"']");
+    $('html, body').animate({
+        scrollTop: anchor.offset().top
+    }, 1200);
+});
     var show = true;
     var countBox = "#counts";
     $(window).on("scroll load resize", function(){
